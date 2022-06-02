@@ -1,0 +1,13 @@
+{
+  "name": "docs",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "next",
+    "vuepress": "next",
+    "vuepress-theme-hope": "next"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
